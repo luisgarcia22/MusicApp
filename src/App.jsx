@@ -1,11 +1,11 @@
-import CurrentSong from "./components/CurrentSong"
+import CurrentSong from './components/CurrentSong';
 
 const App = () => {
   return (
     <div>
-     <CurrentSong/>
+      <CurrentSong />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
