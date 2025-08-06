@@ -15,7 +15,7 @@ const App = () => {
     return () => window.removeEventListener('resize', checkScreen);
   }, []);
   return (
-    <div className=" bg-black text-white">
+    <div className="min-h-screen bg-black text-white">
       <CurrentSong />
       <div className="max-w-6xl mx-auto px-4 py-4">
         <ActionButtons isMobile={isMobile}/>

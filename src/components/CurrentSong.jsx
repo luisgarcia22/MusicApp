@@ -8,9 +8,9 @@ const CurrentSong = () => {
       <img
         src={goBackIcon}
         alt="Go back"
-        className="absolute top-4 left-[20px] w-6 h-6 sm:w-8 sm:h-8 sm:left-15 cursor-pointer"
+        className="absolute top-6 left-[20px] w-6 h-6 sm:w-8 sm:h-8 2xl:left-70 sm:left-15 cursor-pointer"
       />
-      <div className="max-w-6xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center sm:items-end gap-4">
+      <div className="max-w-6xl mx-auto px-4 2xl:px-60 py-6 flex flex-col sm:flex-row items-center sm:items-end gap-4 sm:ml-25 lg:ml-35">
         <img src={HeaderSong} className="w-40 h-40 rounded-lg shadow-lg" />
         <div className="text-center sm:text-left">
           <h1 className="text-3xl sm:text-5xl font-bold text-white">
