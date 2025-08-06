@@ -1,11 +1,10 @@
 import CurrentSong from './components/CurrentSong';
 import ActionButtons from './components/ActionButtons';
 import TrackList from './components/TrackList';
-import { tracks } from './data/tracks'; 
-import { useState,useEffect } from 'react';
+import { tracks } from './data/tracks';
+import { useState, useEffect } from 'react';
 
 const App = () => {
-
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -18,7 +17,7 @@ const App = () => {
     <div className="min-h-screen bg-black text-white">
       <CurrentSong />
       <div className="max-w-6xl mx-auto px-4 py-4">
-        <ActionButtons isMobile={isMobile}/>
+        <ActionButtons isMobile={isMobile} />
         <TrackList tracks={tracks} />
       </div>
     </div>
