@@ -1,8 +1,15 @@
 import HeaderSong from '../assets/image_girl_header.png';
+import goBackIcon from '../assets/Go-back.png';
 
 const CurrentSong = () => {
   return (
     <div className="relative bg-gradient-to-b from-purple-700 to-black pb-6">
+       <div className="relative bg-gradient-to-b from-purple-700 to-black pb-6">
+      <img
+        src={goBackIcon}
+        alt="Go back"
+        className="absolute top-4 left-[20px] w-6 h-6 sm:w-8 sm:h-8 sm:left-15 cursor-pointer"
+      />
       <div className="max-w-6xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center sm:items-end gap-4">
         <img src={HeaderSong} className="w-40 h-40 rounded-lg shadow-lg" />
         <div className="text-center sm:text-left">
@@ -14,7 +21,8 @@ const CurrentSong = () => {
           </p>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
   );
 };
 
