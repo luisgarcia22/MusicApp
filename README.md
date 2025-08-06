@@ -1,12 +1,86 @@
-# React + Vite
+# 🎵 Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple responsive music interface built with **React** and **Tailwind CSS**.  
+Users can view a featured artist, play tracks, follow the artist, and explore a track list in a clean, responsive UI.  
+This project is deployed using **Vercel** and is optimized for both mobile and desktop views.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [https://music-app-pearl-seven.vercel.app/](https://music-app-pearl-seven.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- Vite
+- Prettier
+- Vercel (deployment)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/luisgarcia22/MusicApp.git
+cd MusicApp
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run the project locally
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and go to:
+
+```
+http://localhost:5173/
+```
+
+---
+
+## ☁️ Deployment
+
+This project is deployed on **Vercel**. If you want to deploy your own version:
+
+1. Push your project to a GitHub repository.
+2. Go to [https://vercel.com/](https://vercel.com/).
+3. Import your repository.
+4. Select the framework **Vite + React** (Vercel usually detects it automatically).
+5. Click **Deploy**.
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/           # Icons and images
+├── components/       # Reusable React components
+├── data/             # Track data
+├── App.jsx           # Main application component
+├── index.css         # Main css file
+└── main.jsx          # Entry point
+```
+
+---
+
+## 📄 License
+
+This project is for educational/demo purposes only and has no license applied.
